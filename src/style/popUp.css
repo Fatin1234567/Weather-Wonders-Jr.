@@ -1,0 +1,31 @@
+.popUpContainer{
+    z-index: 100;
+    position:  fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 15, 15, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popUpInner{
+    position: relative;
+    padding: 32px;
+    width: 80%;
+    background-color: #fff;
+    font-weight: 10 0;
+    border-radius: 0.5rem;
+    color:#9d174d ;
+  }
+   .closeBtn{
+    display: block;
+    border-radius: 0.5rem;
+    font-size: 25px;
+    background-color: orange;
+    border: none;
+    padding: 5px;
+  }
+  

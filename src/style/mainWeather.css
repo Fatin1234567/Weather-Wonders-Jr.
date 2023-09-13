@@ -1,0 +1,78 @@
+
+
+
+.currentInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dataContainer {
+    width: 80%;
+    display: flex;
+    padding: 1rem;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-weight: 10 0;
+    border-radius: 0.5rem;
+  }
+  
+  .dataContainer .mainInfo {
+    font-size: 6rem;
+  }
+  
+  .titleTemp {
+    margin-bottom: 0.5rem;
+    color: #9d174d;
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  .titleTempName {
+    color: #1f2937;
+    /* font-size: 2.25rem; */
+    line-height: 2.5rem;
+    letter-spacing: 0.1em;
+  }
+  
+  .extraInfo {
+    font-size: 40px;
+    
+  }
+  
+  .moreInfoText {
+    color: #000000;
+    line-height: 1.75rem;
+    background: none;
+    border: none;
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 0.5rem;
+    padding: 5px;
+    
+  }
+  .imageTemp {
+    display: inline;
+    width: 25%;
+  }
+
+
+  @media only screen and (max-width: 730px) {
+
+    .imageTemp{
+        width: 40%;
+      }
+    
+
+
+    .moreInfoText {
+        line-height: 1.1;
+        margin-bottom: 0;
+      }
+
+
+
+  }

@@ -1,0 +1,46 @@
+.factContainer {
+    width: 60%;
+
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    margin-left: 20%;
+    background: rgba(247, 245, 245, 0.2);
+  }
+  
+  .factText {
+    margin-bottom: 0.5rem;
+    color: #9d174d;
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 700;
+
+  }
+
+  .factImg{
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+
+  @media only screen and (max-width: 730px) {
+
+    .factContainer{
+    }
+
+    .factText {
+        font-size: 1rem;
+      }
+
+    .factImg{
+      height: 150px;
+      width: auto;
+      max-width: 170px;
+    }
+
+
+
+  }
+  

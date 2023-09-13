@@ -1,0 +1,147 @@
+:root {
+    --arrowColour: #d6facf;
+  }
+  
+  .toggle {
+    height: 300px;
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 50px;
+    background-image: linear-gradient(#fc6262, #8ec2ec);
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .toggle.cold {
+    background-image: linear-gradient(#fc6262, #8ec2ec);
+  }
+  
+  .notch {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: #ffffffb6;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: all 0.5s ease;
+  }
+  
+  .cold > .notch {
+    transform: translate(0, 200px);
+  }
+  
+  .arrow.tri {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid var(--arrowColour);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    top: 220px;
+    left: 25px;
+    transition: 0.3s ease;
+  }
+  .info{
+    content:url("../assets/hotinfo.jpg");
+    position: absolute;
+    left: 400px
+}
+.cold .info{
+  content:url("../assets/coldinfo.jpg");
+  position: absolute;
+  left: 400px
+}
+  
+  .arrow.sq {
+    position: absolute;
+    width: 20px;
+    height: 75px;
+    top: 150px;
+    left: 40px;
+    background: var(--arrowColour);
+  }
+  
+  .cold .arrow.tri {
+    border-top: 0px;
+    border-bottom: 50px solid var(--arrowColour);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    top: 70px;
+    left: 25px;
+  }
+  
+  .cold .arrow.sq {
+    top: 100px;
+  }
+  
+  .clothes {
+    content: url("../assets/hotwear.png");
+    position: absolute;
+    left: 150px;
+  }
+  
+  .cold .clothes {
+    content: url("../assets/coldwear.png");
+  }
+  
+  .background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .clothes{
+    height: 280px;
+    background: rgba(248, 245, 245, 0.8);
+    border-radius: 0.8rem;
+  }
+
+  
+ 
+
+  @media only screen and (max-width: 730px) {
+
+   .clothes{
+     height: 200px;
+     left: 100px;
+   }
+   .toggle{
+    height: 250px;
+    width: 75px;
+   }
+
+   .notch{
+    height: 65px;
+    width: 65px;
+   }
+
+.cold > .notch {
+    transform: translate(0, 170px);
+  }
+
+  .arrow.sq{
+    top: 90px;
+    left: 25px;
+  }
+
+  .arrow.tri{
+    border-top: 50px solid var(--arrowColour);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    top: 160px;
+    left: 10px;
+  }
+
+.cold .arrow.sq {
+    top: 90px;
+  }
+  .cold .arrow.tri{
+    border-bottom: 50px solid var(--arrowColour);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    top: 50px;
+    left: 10px;}
+
+
+
+  }

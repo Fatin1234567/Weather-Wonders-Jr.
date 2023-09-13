@@ -1,0 +1,66 @@
+
+
+
+
+.nav {
+    width: 100%;
+    overflow: auto;
+  }
+  
+  ui {
+    list-style: none;
+  }
+  
+  li {
+    float: left;
+  }
+  nav a {
+    width: 180px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 40px;
+    background-color: #ffffff;
+  }
+  .start {
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+  }
+  .end {
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+  }
+  nav a:hover {
+    color: black;
+  }
+  
+  .homeBtn {
+    background-color: #2e3192;
+  }
+  .forecastBtn {
+    background-color: #fff200;
+  }
+  .wearBtn {
+    background-color: #00aeef;
+  }
+  .graphBtn {
+    background-color: #00746b;
+  }
+  .factBtn {
+    background-color: #784627;
+  }
+
+
+  @media only screen and (max-width: 730px) {
+
+    .navContainer {
+        margin-right: 30px;
+      }
+      nav a {
+        width: 100%;
+        font-size: 17px;
+      }
+
+
+  }

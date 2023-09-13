@@ -1,0 +1,52 @@
+.barChartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.barChart {
+  width: 550px;
+  background-color: rgba(253, 246, 246, 0.8);
+}
+
+.quizContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(221, 218, 218, 0.8);
+
+
+}
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.submitBtn{
+  padding: 5px;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 730px) {
+
+  .barChart {
+    width: 360px;
+  }
+
+  .quizContainer{
+
+    font-size: 10px;
+    background: rgba(221, 218, 218, 0.8);
+    font-weight: 500;
+    height: 130px;
+
+
+  }
+
+
+
+}
